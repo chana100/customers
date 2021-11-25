@@ -1,0 +1,67 @@
+    <!-- Modal -->
+    <div id="modal_form" tabindex="-1" role="dialog" aria-labelledby="modal_form" aria-hidden="true" class="modal fade in">
+        <form method="post" data-parsley-validate="" novalidate="">
+            <input class="for-clear" type="hidden" id="action" name="action" value="">
+            <input class="for-clear" type="hidden" id="item_id" name="item_id" value="">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" data-dismiss="modal" aria-label="Close" class="close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                        <h4 class="modal-title">Customer Data</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="id_number">Id number</label>
+                                    <input type="text" id="id_number" name="id_number" class="form-control for-clear">
+                                </div>
+                            </div>    
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="first_name">First name</label>
+                                    <input type="text" id="first_name" name="first_name" class="form-control for-clear">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="last_name">Last name</label>
+                                    <input type="text" id="last_name" name="last_name" class="form-control for-clear">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="dob">Dob</label>
+                                    <input type="date" id="dob" name="dob" class="form-control for-clear">
+                                </div>
+                            </div>    
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="gender_id">Gender</label>
+                                    <select name="gender_id" id="gender_id" class="form-control for-clear">
+                                        <option value="0"></option>
+                                        <option value="1">Male</option>
+                                        <option value="2">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control for-clear">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                 </div>
+            </div>
+        </form>
+    </div>
